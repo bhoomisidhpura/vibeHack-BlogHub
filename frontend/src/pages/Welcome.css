@@ -89,7 +89,7 @@
 .welcome-features {
   margin-top: 4rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
   gap: 2rem;
   animation: fadeInUp 1s ease 0.8s both;
 }
@@ -99,7 +99,7 @@
   backdrop-filter: blur(10px);
   border-radius: 16px;
   padding: 2rem;
-  border: 1px solid #404040;
+/*   border: 1px solid #404040; */
   transition: transform 0.3s ease;
 }
 
